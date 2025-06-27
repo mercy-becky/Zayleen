@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+     background:url(images.jpg) no-repeat;
+}
+body{
+   
+    background-size: cover;
+    color: #fff;
+
+}
+.registration-form{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+   text-align: center;
+}
+.registration-form h1{
+    font-size: 25px;
+    text-align: center;
+    text-transform:uppercase;
+    margin: 20px 0 ;
+    text-decoration: underline;
+    color: green;
+}
+.registration-form h2{
+    font-size: x-large;
+    text-decoration:solid;
+    color: green;
+    text-transform: uppercase;
+    margin: 30px 0;
+    text-align: center;
+}
+.registration-form p {
+    font-size: 20px;
+    margin: 15px 0;
+    color: goldenrod;
+}
+.registration-form input{
+    font-size: 16px;
+    padding: 10px 10px;
+    width: 90%;
+    border: 0;
+    border-radius: 5px;
+    border: 3px solid rgb(128, 128, 128);
+    color: rgb(63, 77, 205);
+    font-weight: bolder;
+    text-align: left;
+}
+.registration-form button{
+    font-size: 18px;
+    font-weight: bolder;
+    color: blueviolet;
+    margin: 10px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: gray;
+    font-size: 20px;
+
+}
+.registration-form button:hover{
+    color: black;
+}
+.para-2{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+
+}
+.para-2 a{
+    color: whitesmoke;
+}
+.para-2 a:hover{
+     color: green;
+
+
+}
+    
