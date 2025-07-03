@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="food.jpg" type="image/x-icon">
+    <title>Restaurant Food Menu</title>
+</head>
+<body>
+  <div class="container">
+    <div class="menu">
+        <div class="heading">
+            <h1>ZAY'S RESTAURANT</h1>
+            <h3>&mdash;Menu&mdash;</h3>
+       
+        <div class="description">
+          <p>I Welcome You To Our Restaurant, Feel At Home.</p>
+          <p>We Serve The Following:</p>
+        </div>
+         </div>
+        <div class="food-items">
+          <img src="fish.jpg">
+          <div class="details">
+            <div class="details-sub">
+            <h5>Fish</h5>
+            <h5 class="price">ksh 700</h5>
+          </div> 
+          <p>Deep fried fish in a tomato sauce served with brown ugali</p>
+          <button onclick="addToCart('Fish', 700)">Add to Cart</button>
+        </div>
+    </div>
+     <div class="food-items">
+          <img src="carrot.jpg">
+          <div class="details">
+            <div class="details-sub">
+            <h5>pan chicken</h5>
+            <h5 class="price">ksh 1700</h5>
+          </div> 
+          <p>Sheet Pan Chicken and Roasted Carrots</p>
+          <button onclick="addToCart('Pan Chicken',1700)">Add to Cart</button>
+        </div>
+    </div>
+     <div class="food-items">
+          <img src="fryer.jpg">
+          <div class="details">
+            <div class="details-sub">
+            <h5>Roast Chicken</h5>
+            <h5 class="price">ksh 2000</h5>
+          </div> 
+          <p>Air fryer roast chicken dinner</p>
+         <button onclick="addToCart('Roast Chicken',2000)">Add to Cart</button>
+        </div>
+    </div>
+     <div class="food-items">
+          <img src="hamburges.jpg">
+          <div class="details">
+            <div class="details-sub">
+            <h5>Hambugers plus Coca</h5>
+            <h5 class="price">ksh 1000</h5>
+          </div> 
+          <p>Two Hambugers with fries served with coca</p>
+          <button onclick="addToCart('Hambugers plus coca',1000)">Add to Cart</button>
+        </div>
+    </div>
+     <div class="food-items">
+          <img src="shawarma.jpg">
+          <div class="details">
+            <div class="details-sub">
+            <h5>Chicken Shawarma</h5>
+            <h5 class="price">ksh 500</h5>
+          </div> 
+          <p>Chicken Shawarma with Potatoes</p>
+         <button onclick="addToCart('chicken shawarma',500)">Add to Cart</button>
+    </div>
+    </div>
+     <div class="food-items">
+          <img src="cocktails.jpg">
+          <div class="details">
+            <div class="details-sub">
+            <h5>Cocktails</h5>
+            <h5 class="price">ksh 350</h5>
+          </div> 
+          <button onclick="addToCart('Cocktails', 350)">Add to Cart</button>
+        </div>
+    </div>
+     <div class="food-items">
+          <img src="mocktails.jpg">
+          <div class="details">
+            <div class="details-sub">
+            <h5>Mocktails</h5>
+            <h5 class="price">ksh 450</h5>
+          </div> 
+         <button onclick="addToCart('Mocktails', 450)">Add to Cart</button>
+        </div>
+    </div>
+     <div class="food-items">
+          <img src="caramel.jpg">
+          <div class="details">
+            <div class="details-sub">
+            <h5>Carramel Frappe</h5>
+            <h5 class="price">ksh 500</h5>
+          </div> 
+          <button onclick="addToCart('Carramel Frappe', 500)">Add to Cart</button> 
+        </div>
+    </div>
+     <div class="food-items">
+          <img src="mojarra.jpg">
+          <div class="details">
+            <div class="details-sub">
+            <h5>Majarra Frita</h5>
+            <h5 class="price">ksh 1650</h5>
+          </div> 
+          <button onclick="addToCart('Majarra Frita', 1650)">Add to Cart</button>
+        </div>
+    </div>
+    <div class="food-items">
+          <img src="download.jpg">
+          <div class="details">
+            <div class="details-sub">
+            <h5>Wine</h5>
+            <h5 class="price">ksh 2550</h5>
+          </div> 
+          <p>Each bottle has its own price.
+          </p>
+          <button onclick="addToCart('Wine', 2550)">Add to Cart</button>
+        </div>
+    </div>
+     </div>
+    <div class="cart">
+  <h2>Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: ksh<span id="total">0</span></p>
+    
+  </div>
+</div>
+   
+     <script src="scrtit.js"></script>
+</body>
+</html>
